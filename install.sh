@@ -30,3 +30,9 @@ ln -s `pwd`/tmux.conf ~/.tmux.config
 git submodule init
 git submodule update
 
+#link oh-my-zsh
+ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
+
+# link .zshrc
+ln -s `pwd`/oh-my-zsh/templates/zshrc ~/.zshrc
+
