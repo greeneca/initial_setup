@@ -3,6 +3,9 @@
 # install needed programs
 sudo apt-get install vim ssh zsh tmux cmake
 
+# set zsh as default login shell
+sudo chsh -s /usr/bin/zsh greeneca
+
 # setup vim dirs
 mkdir ~/.vim
 mkdir ~/.vim/backup
