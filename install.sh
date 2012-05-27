@@ -9,16 +9,20 @@ mkdir ~/.vim/backup
 mkdir ~/.vim/tmp
 
 # move .vimrc
-
-# move .tmux.config
+ln -s vimrc ~/.vimrc
 
 # move .gitconfig
+ln -s git.conf ~/.gitconfig
 
 # setup ssh dir
 mkdir ~/.ssh
 
 # move ssh config
+ln -s ssh.conf ~/.ssh/config
 
 # get oh-my-zsh
 
 # move .zshrc
+
+# move .tmux.config
+ln -s tmux.conf ~/.tmux.config
