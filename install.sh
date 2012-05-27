@@ -25,3 +25,8 @@ ln -s `pwd`/ssh.conf ~/.ssh/config
 
 # link .tmux.config
 ln -s `pwd`/tmux.conf ~/.tmux.config
+
+#get submodules
+git submodule init
+git submodule update
+
