@@ -36,3 +36,12 @@ ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
 # link .zshrc
 ln -s `pwd`/oh-my-zsh/templates/zshrc ~/.zshrc
 
+# install tmux-mem-cpu-load
+cd tmux-mem-cpu-load
+cmake .
+make
+su -
+make install
+logout
+cd ..
+
