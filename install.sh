@@ -23,9 +23,5 @@ mkdir ~/.ssh
 # link ssh config
 ln -s `pwd`/ssh.conf ~/.ssh/config
 
-# get oh-my-zsh
-
-# move .zshrc
-
-# move .tmux.config
-ln -s tmux.conf ~/.tmux.config
+# link .tmux.config
+ln -s `pwd`/tmux.conf ~/.tmux.config
