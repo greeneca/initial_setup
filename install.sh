@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # install needed programs
-sudo apt-get install vim git ssh zsh tmux
+sudo apt-get install vim ssh zsh tmux
 
 # setup vim dirs
 mkdir ~/.vim
