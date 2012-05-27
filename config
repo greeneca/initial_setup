@@ -1,0 +1,31 @@
+Host panther
+    HostName panther.colibri-software.com
+    User greeneca
+Host hyena
+    HostName hyena.colibri-software.com
+    User greeneca
+Host griffin
+    HostName griffin.colibri-software.com
+    User greeneca
+Host hermes
+    HostName hermes.colibri-software.com
+    User greeneca
+Host eagle
+    HostName eagle.colibri-software.com
+    User greeneca
+Host swift
+    HostName swift.colibri-software.com
+    User greeneca
+Host osprey
+    HostName osprey.colibri-software.com
+    User greeneca
+Host albatross
+    HostName albatross.colibri-software.com
+    User greeneca
+Host vulture
+    HostName vulture.colibri-software.com
+    User greeneca
+Host server
+    HostName server.charliegreene.ca
+    User greenot
+    Port 25566
