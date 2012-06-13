@@ -26,6 +26,8 @@ ln -s `pwd`/ssh.conf ~/.ssh/config
 # link .tmux.config
 ln -s `pwd`/tmux.conf ~/.tmux.config
 
+# add tmx
+
 #get submodules
 git submodule init
 git submodule update
@@ -35,6 +37,8 @@ ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
 
 # link .zshrc
 ln -s `pwd`/oh-my-zsh/templates/zshrc ~/.zshrc
+
+# TODO fork tmux-mem-cpu-load
 
 # install tmux-mem-cpu-load
 cd tmux-mem-cpu-load
