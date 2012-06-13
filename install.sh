@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # install needed programs
-sudo apt-get install vim ssh zsh tmux cmake
+sudo apt-get install vim ssh zsh tmux cmake tilda
 
 # set zsh as default login shell
 sudo chsh -s /usr/bin/zsh greeneca
@@ -24,7 +24,7 @@ mkdir ~/.ssh
 ln -fs `pwd`/ssh.conf ~/.ssh/config
 
 # link .tmux.config
-ln -fs `pwd`/tmux.conf ~/.tmux.config
+ln -fs `pwd`/tmux.conf ~/.tmux.conf
 
 # add tmx
 ln -fs `pwd`/tmx /usr/bin/tmx
@@ -34,6 +34,7 @@ git submodule init
 git submodule update
 
 #link oh-my-zsh
+rm ~/.oh-my-zsh
 ln -fs `pwd`/oh-my-zsh ~/.oh-my-zsh
 
 # link .zshrc
