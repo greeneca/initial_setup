@@ -27,3 +27,8 @@ set nowrap
 set shiftwidth=2
 set softtabstop=2
 set tabstop=8
+
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
