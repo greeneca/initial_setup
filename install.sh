@@ -27,7 +27,7 @@ ln -fs `pwd`/ssh.conf ~/.ssh/config
 ln -fs `pwd`/tmux.conf ~/.tmux.conf
 
 # add tmx
-ln -fs `pwd`/tmx /usr/bin/tmx
+sudo ln -fs `pwd`/tmx /usr/bin/tmx
 
 #get submodules
 git submodule init
