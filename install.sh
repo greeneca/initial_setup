@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # install needed programs
-sudo apt-get install vim ssh zsh tmux cmake tilda
+sudo apt-get install vim ssh zsh tmux cmake tilda gcc g++ make
 
 # set zsh as default login shell
 sudo chsh -s /usr/bin/zsh greeneca
