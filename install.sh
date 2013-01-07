@@ -40,6 +40,9 @@ ln -fs `pwd`/oh-my-zsh ~/.oh-my-zsh
 # link .zshrc
 ln -fs `pwd`/oh-my-zsh/templates/zshrc ~/.zshrc
 
+#link custom_scripts
+ln -fs `pwd`/custom_scripts ~/.custom_scripts
+
 # TODO fork tmux-mem-cpu-load
 
 # install tmux-mem-cpu-load
