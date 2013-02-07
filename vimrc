@@ -22,6 +22,8 @@ set list
 "set listchars=tab:>-,trail:-
 set listchars=tab:>-
 
+set wildmode=list:longest,full
+
 if exists('+colorcolumn')
   set colorcolumn=80
 else
