@@ -3,4 +3,4 @@
 	url = git@github.com:greeneca/oh-my-zsh.git
 [submodule "tmux-mem-cpu-load"]
 	path = tmux-mem-cpu-load
-	url = git://github.com/thewtex/tmux-mem-cpu-load.git
+	url = git@github.com:greeneca/tmux-mem-cpu-load.git
