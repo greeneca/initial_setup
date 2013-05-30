@@ -22,6 +22,7 @@ set list
 "set listchars=tab:>-,trail:-
 set listchars=tab:>-
 
+set wildmenu
 set wildmode=list:longest,full
 
 if exists('+colorcolumn')
@@ -50,3 +51,18 @@ map <F7> :tabp<CR>
 
 map <S-Right> :n<CR>
 map <S-Left> :prev<CR>
+
+" AutoPairs Plugin
+let g:AutoPairsFlyMode = 1
+let g:AutoPairsShortcutBackInsert="<C-b>"
+let g:AutoPairsFlyModeOnlyCurrentLine = 1
+
+" Fuzzy matching
+map ff :FufFile
+map fF :FufFileWithCurrentBufferDir
+map fl :FufLine
+map fb :FufBuffer
+
+" Filetype settings
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
+filetype plugin indent on

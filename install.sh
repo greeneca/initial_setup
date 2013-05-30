@@ -6,10 +6,8 @@ sudo apt-get install vim ssh zsh tmux cmake tilda gcc g++ make
 # set zsh as default login shell
 sudo chsh -s /usr/bin/zsh greeneca
 
-# setup vim dirs
-mkdir ~/.vim
-mkdir ~/.vim/backup
-mkdir ~/.vim/tmp
+# setup vim
+ln -fs `pwd`/vim/ ~/.vim/
 
 # link .vimrc
 ln -fs `pwd`/vimrc ~/.vimrc
