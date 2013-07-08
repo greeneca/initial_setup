@@ -45,6 +45,7 @@ ln -fs `pwd`/custom_scripts ~/.custom_scripts
 
 # install tmux-mem-cpu-load
 cd tmux-mem-cpu-load
+git checkout -b install origin/install
 cmake .
 make
 sudo make install
