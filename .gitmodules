@@ -4,3 +4,6 @@
 [submodule "tmux-mem-cpu-load"]
 	path = tmux-mem-cpu-load
 	url = git@github.com:greeneca/tmux-mem-cpu-load.git
+[submodule "vim/puppet-syntax-vim"]
+	path = vim/puppet-syntax-vim
+	url = git@github.com:greeneca/puppet-syntax-vim.git

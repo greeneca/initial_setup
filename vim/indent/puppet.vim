@@ -1,0 +1,1 @@
+../puppet-syntax-vim/indent/puppet.vim
