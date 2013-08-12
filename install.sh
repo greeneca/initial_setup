@@ -7,7 +7,9 @@ sudo apt-get install vim ssh zsh tmux cmake tilda gcc g++ make aptitude
 sudo chsh -s /usr/bin/zsh greeneca
 
 # setup vim
-ln -fs `pwd`/vim/ ~/.vim/
+ln -fs `pwd`/vim/ ~/.vim
+mkdir ~/.vim/tmp
+mkdir ~/.vim/backup
 
 # link .vimrc
 ln -fs `pwd`/vimrc ~/.vimrc
